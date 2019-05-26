@@ -139,6 +139,9 @@ h4 {
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 8px;
   }
+  section {
+    padding: 50px 0;
+  }
 }
 @media only screen and (max-width: 991px) {
   .navbar-nav {
@@ -174,10 +177,20 @@ h4 {
   .main-header-buttons .btn:last-child {
     margin-top: 0;
   }
+  .btn-shadow {
+    box-shadow: 0 5px 0 #ff5990;
+    padding: 10px 15px;
+  }
 }
 
 /* Extra small devices, phones */
 @media only screen and (max-width: 480px) {
+  .section-watch .nav-pills .nav-link {
+    padding: 8px 16px;
+  }
+  .section-watch .nav-pills .nav-item {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 380px) {

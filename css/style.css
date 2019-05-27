@@ -129,6 +129,35 @@ h4 {
   background-color: #da1757;
 }
 
+/* ============== .section-achievement ============== */
+.section-achievement {
+  background-color: #4b2d7f;
+  color: #ffffff;
+  font-size: 1rem;
+  padding: 0;
+}
+.section-achievement i {
+  font-size: 4rem;
+}
+.section-achievement .num {
+  font-size: 3rem;
+  font-weight: 600;
+  margin: 30px 0 20px;
+}
+.section-achievement h4 {
+  font-size: 2rem;
+  height: 4.5rem;
+  overflow: hidden;
+}
+.section-achievement .achievement-item {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  transition: all 0.5s;
+}
+.section-achievement .achievement-item:hover {
+  background-color: #40286a;
+}
+
 /* Large devices, wide screens */
 @media only screen and (max-width: 1200px) {
 }
@@ -162,6 +191,10 @@ h4 {
   .h3,
   h4 {
     font-size: 30px;
+  }
+  .section-achievement .achievement-item {
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 }
 
